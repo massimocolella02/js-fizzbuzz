@@ -12,5 +12,26 @@ body{
 .container{
     width: 80%;
     margin: 0 auto;
-    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    flex-basis: calc(100% / 7 - 1%);
+    background-color: #1389B2;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-bottom: 1%;
+}
+.bg-green{
+    background-color: #0CD6A1;
+}
+.bg-yellow{
+    background-color: #FFD166;
+}
+.bg-red{
+    background-color: #F0466F;
 }
